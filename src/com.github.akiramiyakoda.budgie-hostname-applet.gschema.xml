@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="com.github.akiramiyakoda.budgie-hostname-applet">
+    <key type="b" name="show-custom-text">
+        <summary>Show custom text</summary>
+        <description>If true, shows the custom text of your choice instead of the hostname.</description>
+        <default>false</default>
+    </key>
+    <key type="s" name="custom-text">
+        <summary>Custom text</summary>
+        <description>Custom text to show in the applet.</description>
+        <default>""</default>
+    </key>
+    <key type="b" name="show-underline">
+        <summary>Show underline</summary>
+        <description>If true, shows an underline.</description>
+        <default>false</default>
+    </key>
+    <key type="b" name="use-bold-font">
+        <summary>Use custom font</summary>
+        <description>If true, uses a bold font.</description>
+        <default>false</default>
+    </key>
+    <key type="b" name="use-custom-color">
+        <summary>Use custom color</summary>
+        <description>If true, uses a custom color.</description>
+        <default>false</default>
+    </key>
+    <key type="s" name="custom-color">
+        <summary>Custom color</summary>
+        <description>Custom color to show in the applet.</description>
+        <default>"rgb(255,255,255)"</default>
+    </key>
+  </schema>
+</schemalist>

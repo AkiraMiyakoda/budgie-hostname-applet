@@ -1,0 +1,8 @@
+[Plugin]
+Module=hostnameapplet.so
+Name=Hostname
+Description=Shows your hostname on the panel
+Authors=Akira Miyakoda <akira.miyakoda@gmail.com>
+Copyright=Copyright © 2021 Akira Miyakoda
+Website=https://github.com/AkiraMiyakoda
+Icon=hostname-applet-symbolic
