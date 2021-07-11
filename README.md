@@ -1,4 +1,4 @@
-# Budige Hostname Applet
+# Budgie Hostname Applet
 
 This applet shows your hostname (or any string of your choice) on your budgie panel.
 
