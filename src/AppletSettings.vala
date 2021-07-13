@@ -7,16 +7,16 @@ public class AppletSettings : Gtk.Box
     const int VERTICAL_SPACING   = 12;
     const int CUSTOM_STRING_MAX_LENGTH = 64;
 
-    private GLib.Settings? settings = null;
+    private Settings settings = null;
 
-    private Gtk.Switch?      switch_custom_text;
-    private Gtk.Entry?       entry_custom_text;
-    private Gtk.Switch?      switch_underline;
-    private Gtk.Switch?      switch_bold;
-    private Gtk.Switch?      switch_custom_color;
-    private Gtk.ColorButton? button_custom_color;
+    private Gtk.Switch      switch_custom_text;
+    private Gtk.Entry       entry_custom_text;
+    private Gtk.Switch      switch_underline;
+    private Gtk.Switch      switch_bold;
+    private Gtk.Switch      switch_custom_color;
+    private Gtk.ColorButton button_custom_color;
 
-    public AppletSettings(Settings? settings)
+    public AppletSettings(Settings settings)
     {
         this.settings = settings;
 

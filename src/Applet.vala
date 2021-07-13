@@ -16,10 +16,10 @@ public class Applet : Budgie.Applet
     public string uuid { public set; public get; }
 
     private Gtk.EventBox applet_container;
-    private Gtk.Label hostname_label;
+    private Gtk.Label    hostname_label;
     private Budgie.PanelPosition panel_position;
 
-    private GLib.Settings? settings;
+    private Settings settings;
 
     public Applet(string uuid) {
         Object(uuid: uuid);
