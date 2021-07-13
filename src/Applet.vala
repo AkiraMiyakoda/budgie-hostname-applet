@@ -26,7 +26,8 @@ public class Applet : Budgie.Applet
 
     private Settings settings;
 
-    public Applet(string uuid) {
+    public Applet(string uuid)
+    {
         Object(uuid: uuid);
 
         // Setup settings

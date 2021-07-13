@@ -12,7 +12,7 @@ public class AppletSettings : Gtk.Box
     const int VERTICAL_SPACING   = 12;
     const int CUSTOM_STRING_MAX_LENGTH = 64;
 
-    private Settings settings = null;
+    private Settings settings;
 
     private Gtk.Switch      switch_custom_text;
     private Gtk.Entry       entry_custom_text;
